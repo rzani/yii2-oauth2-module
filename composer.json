@@ -1,0 +1,25 @@
+{
+    "name": "rzani/yii2-oauth2-module",
+    "description": "A module for implementing an OAuth2 server",
+    "homepage": "https://github.com/rzani/yii2-oauth2-module",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "module", "oauth", "oauth2"],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4",
+        "yiisoft/yii2": "^2.0",
+        "yiisoft/yii2-authclient": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodrigo Zani",
+            "email": "rodrigo.zhs@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "rzani\\yii2\\oauth2\\": ""
+        }
+    }
+}
